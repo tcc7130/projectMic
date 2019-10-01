@@ -1,0 +1,11 @@
+<html>
+<head>
+<title>Survey Title</title>
+</head>
+<body>
+<h1 id="title">Survey Form Title</h1>
+<p id="description">
+This is a survey form explaination. More text will be here. Lorum ipsum. 
+</p>
+</body>
+</html>
