@@ -8,8 +8,10 @@
 This is a survey form explaination. More text will be here. Lorum ipsum. 
 </p>
 <form>
-	<label>Name <input type="text" id="name"></label>
-	<label>Email<input type="Email" id="email"></label>
+	<label>Name: <input type="text" id="name"></label>
+	<label>Email: <input pattern="/^[a-zA-Z0-9.!#$%&amp;'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/" type="email" id="email"></label>
+	<label>Number: <input id="number" type="number" min="1" max="10" /></label>
+	<input type="submit" value="Submit" />
 </form>
 </body>
 </html>
