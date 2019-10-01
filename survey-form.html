@@ -8,14 +8,25 @@
 This is a survey form explaination. More text will be here. Lorum ipsum. 
 </p>
 <form>
-	<label id="name-label">Name: <input type="text" id="name" placeholder="enter name"></label>
-	<label id="email-label">Email: <input type="email" id="email" placeholder="enter email address"></label>
+	<label id="name-label">Name: <input type="text" id="name" placeholder="enter name"></label><br />
+	<label id="email-label">Email: <input type="email" id="email" placeholder="enter email address"></label> <br />
 	<label id="number-label">Number: <input id="number" type="number" min="1" max="10" placeholder="enter a number from 1 to 10"/></label>
+	<br />
 	<select id="dropdown">
 		<option value="option1">Option1</option>
 		<option value="option2">Option2</option>
 		<option value="option3">Option3</option>
-	</select>
+	</select> <br />
+	<div class="form-group">
+		<input type="radio" value="radio1" name="group1" /> Radio 1 <br />
+		<input type="radio" value="radio2" name="group1" /> Radio 2 <br />
+		<input type="radio" value="radio3" name="group1" /> Radio 3 <br />
+	</div><br />
+	<div class="checkboxes">
+		<input type="checkbox" value"checkbox1" /> Checkbox 1 <br />
+		<input type="checkbox" value"checkbox2" /> Checkbox 2 <br />
+		<input type="checkbox" value"checkbox3" /> Checkbox 3 <br />
+	</div>
 	<input type="submit" value="Submit" />
 </form>
 </body>
