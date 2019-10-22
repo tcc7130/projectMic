@@ -7,6 +7,7 @@
 <body>
 	<h1>Input Types</h1>
 	<fieldset>
+		<legend>Input types</legend>
 		<form class="types">
 			<div>
 				<label>Color
@@ -74,36 +75,44 @@
 	</fieldset>
 	<h2>Radio Buttons</h2>
 	<form action="/login" method="post">
-		<input type="radio" name="one" checked>One
-		<input type="radio" name="one" >Two
-		<input type="radio" name="one" >Three
-		<input type="submit" value="submit">
+		<fieldset>
+			<input type="radio" name="one" checked>One
+			<input type="radio" name="one" >Two
+			<input type="radio" name="one" >Three
+			<input type="submit" value="submit">
+		</fieldset>
 
 	</form>
 	<h2>Checkboxes</h2>
 	<form action="/login">
-		<input type="checkbox" name="one" id="">One
-		<input type="checkbox" name="one" id="">Two
-		<input type="checkbox" name="one" id="">Three
-		<input type="submit" value="submit">
+		<fieldset>
+			<input type="checkbox" name="one" id="">One
+			<input type="checkbox" name="one" id="">Two
+			<input type="checkbox" name="one" id="">Three
+			<input type="submit" value="submit">
+		</fieldset>
 	</form>
 	<h2>Select</h2>
 	<form action="/login">
-		<select name="number">
-			<option value="one" selected>One</option>
-			<option value="two">Two</option>
-			<option value="three">Three</option>		
-		</select>
-		<input type="submit" value="submit">
+		<fieldset>
+			<select name="number">
+				<option value="one" selected>One</option>
+				<option value="two">Two</option>
+				<option value="three">Three</option>		
+			</select>
+			<input type="submit" value="submit">
+		</fieldset>
 	</form>
 	<h2>Multiple Select</h2>
 	<form action="/login">
-		<select name="number" multiple>
-			<option value="one" selected>One</option>
-			<option value="two">Two</option>
-			<option value="three">Three</option>		
-		</select>
-		<input type="submit" value="submit">
+		<fieldset>
+			<select name="number" multiple>
+				<option value="one" selected>One</option>
+				<option value="two">Two</option>
+				<option value="three">Three</option>		
+			</select>
+			<input type="submit" value="submit">
+		</fieldset>
 	</form>
 </body>
 </html>
