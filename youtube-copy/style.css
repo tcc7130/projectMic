@@ -1,0 +1,47 @@
+.no-padding{
+    padding: 0;
+}
+nav{
+    margin-bottom: 20px;
+}
+#user-section {
+    margin: 10px 0;
+}
+
+.video-player {
+    width: auto;
+}
+
+div a i {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+div img {
+    width: 100%;
+    height: auto;
+}
+
+#logoImage {
+    height: 20px;
+    width: auto;
+}
+.video{
+    display: flex;
+    margin-bottom: 10px;
+}
+.video img{
+    width: 50%;
+}
+.video-text{
+    width: 50%;
+    color:grey;
+    font-size: 14px;
+    font-style: italic;
+    padding: 0 10px;
+}
+.video-text p{
+    font-style: normal;
+    color: black;
+    font-size: 16px;
+}
