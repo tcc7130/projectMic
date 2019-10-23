@@ -1,0 +1,113 @@
+body {
+  background-color: #eceef1;
+}
+
+.logo-link {
+  color: gray;
+}
+
+.logo-link:hover {
+  color: gray;
+  text-decoration: none;
+}
+
+.header {
+  display: flex;
+}
+
+.header p {
+  display: inline;
+  margin-bottom: 0;
+}
+
+.header button {
+  margin: 0 1em;
+  color: white;
+}
+
+#intuit_logo {
+  height: 60px;
+  width: auto;
+  margin-top: 5em;
+}
+
+.logo {
+  height: 30px;
+  width: 30px;
+  margin-left: 1em;
+}
+
+.wrap-logo-link {
+  text-align: center;
+}
+
+.logo-link {
+  display: inline-flex;
+}
+
+.bg-white {
+  background-color: white;
+}
+
+.captcha {
+  background-color: #eceef1;
+  padding: 1em 2em !important;
+  text-align: center;
+}
+
+.frame {
+  padding: 2em;
+  margin: 0 20px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #8d909675;
+  border-radius: 2px;
+}
+
+.center {
+  text-align: center;
+}
+
+div button img {
+  height: 20px;
+  width: 20px;
+}
+
+form p {
+  margin: 1.5em 0 0.5em 0;
+}
+
+.center h1 {
+  font-size: 25px;
+}
+
+.terms {
+  font-style: italic;
+  margin-top: 2em;
+}
+
+
+input[name="submit"] {
+  display: block;
+  margin-top: 2em;
+}
+
+input {
+  width: 100%;
+}
+
+footer {
+  text-align: center;
+
+}
+
+footer ul {
+  margin: 1em 0 0 0;
+}
+
+footer li {
+  list-style: none;
+  display: inline;
+  margin: 0 1em;
+  color: black;
+}
